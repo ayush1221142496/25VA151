@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //JS varialble data types
+        //primitive data types:string,number,boolean,null,undefined,symbol,bigint
+        //non primitive data types:object,array,function
+        var name="ABES"; //string
+        console.log(name);
+        console.log(typeof(name));
+        //string 
+        let mycot=9452392447;
+        console.log(mycot);
+        console.log(typeof(mycot));
+        //boolean
+        let coursedone="false";
+        console.log(coursedone);
+        console.log(typeof(coursedone));
+        //null
+        let add=null;
+        console.log(add); 
+        console.log(typeof(add));
+        //undefined
+        let email;
+        console.log(email);
+        console.log(typeof(email));
+        //Bigint
+       let bigAmount=BigInt(12345611216454878945121215145);
+       console.log(bigAmount);
+       console.log(typeof(bigAmount));   
+       //symbol - A unique primitive identifier
+       let val1=("hello"); 
+       let val2=("hello");
+       console.log(val1==val2);
+       console.log(typeof(val1)); 
+        //reference or non primitive - defined in pair i.e key and value
+        //object{} , function() and array[]
+        let myinfo = {
+        name:"Ayush", 
+        mob:9452392447, 
+        isMarried:false, 
+        eMail:"ayushvk26102006@gmail.com",
+        adress:null
+        }
+        //access objects keys
+        console.log(myinfo);
+        console.log(myinfo.eMail);
+        console.log(myinfo);
+        console.log(myinfo.mob);
+        //function
+        function hello(){
+            let myName="ABES EC";
+            console.log(myName);
+            console.log(typeof(hello));
+        }
+       </script>
+    
+</body>
+</html>
