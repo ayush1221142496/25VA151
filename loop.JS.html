@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop in JS</title>
+</head>
+<body>
+    <script>
+        //for ---in
+        let studentList=["Ayush","Abhay","John"];  //array store
+        for(let i=0;i<studentList.length;i++){
+            // console.log(studentList[i]);
+        }
+        //using for----in loop =iterates over the enumerable properties(keys)
+        //of an object 
+        for(let x in studentList){
+            // console.log(studentList[x]);
+        }
+        //using for in loop iterates over the values of iterable objects
+        for(let y of studentList)
+        {
+            console.log(y);
+        }
+    </script>
+    
+</body>
+</html>
